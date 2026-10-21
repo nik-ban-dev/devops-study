@@ -1,3 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
-echo "Hello, DevOps!"
+echo "Hello, Junior DevOps!"
+echo "Today I am learning Git"
