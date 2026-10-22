@@ -3,7 +3,7 @@
 read -p "Укажи сервер " server
 
 if ping -c 1 -W 2 "$server" > /dev/null 2>&1; then
-echo "Server is UP"
+echo "Server is ONLINE"
 else 
 echo "Server is unavailable"  
 fi
