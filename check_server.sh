@@ -1,9 +1,9 @@
 #!/bin/bash
 
-server="8.8.8.8"
+read -p "Укажи сервер " server
 
-if ping -c 1-W 2 "$server" > /dev/null 2>&1; then
-echo "Serveris available"
+if ping -c 1 -W 2 "$server" > /dev/null 2>&1; then
+echo "Server is available"
 else 
 echo "Server is unavailable"  
 fi
