@@ -2,3 +2,4 @@
 
 echo "Hello, Junior DevOps!"
 echo "Today I am learning Git"
+echo "Learning GitLab and DevOps"
