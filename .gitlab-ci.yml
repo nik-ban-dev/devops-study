@@ -1,0 +1,9 @@
+stages:
+    - test
+
+
+check_bash:
+    stage: test
+    script:
+        - echo "Checking Bash syntax"
+        - bash -n check_server.sh
