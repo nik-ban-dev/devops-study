@@ -9,5 +9,5 @@ else
 echo "Server is unavailable"
 echo "$(date "+%Y-%m-%d %H:%M:%S") | $server | OFFLINE">>server.log
 fi
-if
+
 
