@@ -1,9 +1,16 @@
 stages:
-    - test
+  - test
+  - build
 
 
 check_bash:
-    stage: test
-    script:
-        - echo "Checking Bash syntax"
-        - bash -n check_server.sh
+  stage: test
+  script:
+    - echo "Checking Bash syntax"
+    - bash -n check_server.sh
+build_app:
+  stage: build
+  script:
+    - echo "Building application" 
+    - echo "Build completed!"
+
